@@ -1,0 +1,11 @@
+{
+  "componentA": {
+    "$type": "color",
+    "foreground": {
+      "$value": "{colors.black}"
+    },
+    "background": {
+      "$value": "{colors.orange.200}"
+    }
+  }
+}

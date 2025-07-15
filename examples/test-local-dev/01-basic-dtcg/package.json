@@ -1,0 +1,23 @@
+{
+  "name": "style-dictionary-test-local-dev-01-basic-dtcg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "type": "module",
+  "files": [
+    "build",
+    "properties"
+  ],
+  "scripts": {
+    "clean": "rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./build.js",
+    "build:watch": "nodemon --watch './src/*' --ext 'json' --exec 'node ./build.js'"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "style-dictionary": "file:../../../../style-dictionary-didoo"
+  }
+}

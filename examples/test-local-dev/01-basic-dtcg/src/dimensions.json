@@ -1,0 +1,14 @@
+{
+  "dimensions": {
+    "$type": "dimension",
+    "sm": {
+      "$value": "12px"
+    },
+    "md": {
+      "$value": "24px"
+    },
+    "lg": {
+      "$value": "48px"
+    }
+  }
+}
