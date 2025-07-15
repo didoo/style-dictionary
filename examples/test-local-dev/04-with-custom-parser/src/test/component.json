@@ -1,0 +1,31 @@
+{
+  "componentA": {
+    "color": {
+      "value": {
+        "light": "{mycolor}",
+        "dark": "{othercolor}"
+      },
+      "themed": true,
+      "type": "color",
+      "group": "components"
+    }
+  },
+  "componentB": {
+    "color": {
+      "value": {
+        "light": "{componentA.color}",
+        "dark": "{othercolor2}"
+      },
+      "themed": true,
+      "type": "color",
+      "group": "components"
+    }
+  },
+  "componentC": {
+    "color": {
+      "value": "{othercolor2}",
+      "type": "color",
+      "group": "components"
+    }
+  }
+}
