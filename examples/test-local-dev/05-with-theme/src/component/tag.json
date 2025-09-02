@@ -1,0 +1,19 @@
+{
+  "tag": {
+    "color": {
+      "$value": "{color.foreground.primary}"
+    },
+    "border": {
+      "radius": {
+        "$value": "{border.radius.small}"
+      },
+      "width": {
+        "$value": "1",
+        "$type": "dimension"
+      },
+      "color": {
+        "$value": "{color.foreground.strong}"
+      }
+    }
+  }
+}

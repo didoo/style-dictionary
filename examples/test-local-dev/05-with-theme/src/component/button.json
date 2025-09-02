@@ -1,0 +1,15 @@
+{
+  "button": {
+    "primary": {
+      "foreground": { "$value": "{color.palette.white}",
+        "$modes": {
+          "cds-g10": { "$value": "{color.palette.neutral-500}" },
+          "cds-g90": { "$value": "{color.palette.neutral-300}" },
+          "cds-g100": { "$value": "{color.palette.neutral-200}" }
+        } },
+      "surface": { "$value": "{color.foreground.action}" },
+      "surface-hover": { "$value": "{color.foreground.action-hover}" },
+      "surface-active": { "$value": "{color.foreground.action-active}" }
+    }
+  }
+}

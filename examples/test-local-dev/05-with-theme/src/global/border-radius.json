@@ -1,0 +1,12 @@
+{
+  "$modes": { "hds": {}, "cds": {} },
+  "border": {
+    "$type": "dimension",
+    "radius": {
+      "x-small": { "$value": "3", "$modes": { "cds": { "$value": "0" } } },
+      "small": { "$value": "5", "$modes": { "cds": { "$value": "0" } } },
+      "medium": { "$value": "6", "$modes": { "cds": { "$value": "0" } } },
+      "large": { "$value": "8", "$modes": { "cds": { "$value": "0" } } }
+    }
+  }
+}

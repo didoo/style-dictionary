@@ -1,0 +1,25 @@
+{
+  "$modes": {
+    "hds": {},
+    "cds-white": {},
+    "cds-g10": { "$fallback": "cds-white" },
+    "cds-g90": { "$fallback": "cds-g100" },
+    "cds-g100": {}
+  },
+  "color": {
+    "palette": {
+      "$type": "color",
+      "$group": "palette",
+      "black": { "$value": "#000000", "$modes": { "cds-g100": { "$value": "#000000" } } },
+      "white": { "$value": "#ffffff", "$modes": { "cds-g100": { "$value": "#FFFFFF" } } },
+      "blue": {
+        "50": { "$value": "#f2f8ff", "$modes": { "cds-g100": { "$value": "#1c345f" } } },
+        "100": { "$value": "#cce3fe", "$modes": { "cds-g100": { "$value": "#0046d1" } } },
+        "200": { "$value": "#1060ff", "$modes": { "cds-g100": { "$value": "#0c56e9" } } },
+        "300": { "$value": "#0c56e9", "$modes": { "cds-g100": { "$value": "#1060ff" } } },
+        "400": { "$value": "#0046d1", "$modes": { "cds-g100": { "$value": "#cce3fe" } } },
+        "500": { "$value": "#1c345f", "$modes": { "cds-g100": { "$value": "#f2f8ff" } } }
+      }
+    }
+  }
+}

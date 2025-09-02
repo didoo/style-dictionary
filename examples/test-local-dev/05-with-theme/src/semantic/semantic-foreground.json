@@ -1,0 +1,44 @@
+{
+  "$modes": {
+    "hds": {},
+    "cds-white": {},
+    "cds-g10": { "$fallback": "cds-white" },
+    "cds-g90": { "$fallback": "cds-g100" },
+    "cds-g100": {}
+  },
+  "color": {
+    "$type": "color",
+    "$group": "palette",
+    "foreground": {
+      "strong": {
+        "$value": "{color.palette.neutral-700}",
+        "$modes": {
+          "cds-g10": { "$value": "{color.palette.neutral-600}" },
+          "cds-g90": { "$value": "{color.palette.neutral-200}" },
+          "cds-g100": { "$value": "{color.palette.neutral-100}" }
+        }
+      },
+      "primary": {
+        "$value": "{color.palette.neutral-600}",
+        "$modes": {
+          "cds-g10": { "$value": "{color.palette.neutral-500}" },
+          "cds-g90": { "$value": "{color.palette.neutral-300}" },
+          "cds-g100": { "$value": "{color.palette.neutral-200}" }
+        }
+      },
+      "faint": { "$value": "{color.palette.neutral-500}" },
+      "action": {
+        "$value": "{color.palette.blue-200}",
+        "$modes": { "cds-g100": { "$value": "{color.palette.blue-100}" } }
+      },
+      "action-hover": {
+        "$value": "{color.palette.blue-300}",
+        "$modes": { "cds-g100": { "$value": "{color.palette.blue-200}" } }
+      },
+      "action-active": {
+        "$value": "{color.palette.blue-400}",
+        "$modes": { "cds-g100": { "$value": "{color.palette.blue-300}" } }
+      }
+    }
+  }
+}
